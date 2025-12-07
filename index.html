@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body id="body" >
+    <div class="box" >
+      <div class="box1" id="box1" >
+         <div class="img" id="img">
+            <img src="picture/kuaitun.jpg" id="kuaitun">
+            <img src="picture/kuaitun_finalfrom.jpg" id="kuaitun_finalfrom">
+         </div>
+            <h1 id="h1" class="highlights">สมัครเป็นแฟนไข่ตุ๋น</h1>
+         <div class="USER">
+            <input type="text" id="input_User1" class="input_User1" placeholder="User"><br>
+         </div>
+         
+         <div class="PassWord1">
+            <input type="password" id="input_password1" class="input_password1" placeholder="Password"><br>
+            <span id="ShowPassword1">👁️</span>
+         </div>
+   
+            <button onclick="apply()" id="button1">summit</button>
+            <p id="text1" >นี้คือเหตุผลที่คุณต้องสมัครเป็นแฟนไข่ตุ๋น</p>
+         <ul id="line">
+            <li>ไข๋ตุ๋นหล่อแบบเทพบุตร</li>
+            <li>ไข๋ตุ๋นมีหลายบุคลิก</li>
+            <li>ไข่ตุ๋นเป็นปีศาจบรรพกาล</li>
+            <li>ไข่ตุ๋นสามารถทำลายล้างโลกได้</li>
+         </ul>
+     
+         <div class="box3">
+            <p id="text2" >ไม่มีบัญชีแต่อยากเป็นเเฟนไข่ตุ๋นสุดหล่อ</p><br>
+            <button onclick="swap()" id="button2" class="button2">click here</button>
+         </div>
+      </div>
+      <div class="box2-wrapper">
+      <div class="box2" id="box2">
+            <h1 id="highlights2">สร้างบัญชีเว็ปSKIBIDI</h1>
+         <div id="crateEmail">
+            <input type="email" id="input_email2" class="input_email2" placeholder="E-mail"><br>
+         </div>
+         
+         <div id="crateUser">
+            <input type="text" class="input_user2" id="input_user2" placeholder="User"><br>
+         </div>
+         
+         <div id="cratePassword">
+            <input type="password" id="input_password2" class="input_password2" placeholder="Password"><br>
+            <span id="ShowPassword2">👁️</span>
+         </div>
+         
+         <div id="confrimPassword">
+            <input type="password" id="input_confirmpassword" class="input_confirmpassword" placeholder="Confrimpassword"><br>
+
+         </div>
+            <button onclick="create()" id="button3">คลิกเพื้อสร้างบัญชี</button>
+      </div>
+      </div>
+    
+      <div class="Admin" id="Admin">
+               <h2 style="margin-top: 0;">Admin Panel</h2> 
+         <div class="data-container">
+            <div id="EmailTable"> 
+               <p><strong>Email</strong></p>
+               <p id="DataEmail"></p>
+            </div>  
+            
+            <div id="UserTable">
+               <p><strong>User</strong></p>
+               <p id="DataUser"></p>
+            </div>
+            
+            <div id="PasswordTable">
+               <p><strong>Password</strong></p>
+               <p id="DataPassword"></p>
+            </div>
+         </div>
+      </div>
+      
+            <button onclick="clearALL()" id="clearALL">🗑️</button>
+            <button onclick="BackToLogin()" id="BackToLogin">🔙</button>
+   
+    <script src="script.js"></script>
+</body>
+</html>
